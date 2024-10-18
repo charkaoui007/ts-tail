@@ -1,0 +1,50 @@
+.dashboard {
+  position: relative;
+  display: flex;
+  flex-direction: column; /* Equivalent to flex-col */
+  min-height: 100vh; /* Equivalent to min-h-screen */
+  background-color: white; /* Equivalent to bg-white */
+  overflow-x: hidden; /* Equivalent to overflow-x-hidden */
+  font-family: "Inter", "Noto Sans", sans-serif; /* Custom font family */
+}
+
+.layout-container {
+  display: flex;
+  flex-grow: 1; /* Equivalent to grow */
+  flex-direction: column; /* Equivalent to flex-col */
+  height: 100%; /* Equivalent to h-full */
+}
+
+.content-container {
+  padding-left: 10rem; /* Equivalent to px-40 */
+  padding-right: 10rem; /* Equivalent to px-40 */
+  display: flex;
+  flex-direction: column; /* Equivalent to flex-col */
+  flex-grow: 1; /* Equivalent to flex-1 */
+  justify-content: center; /* Equivalent to justify-center */
+  padding-top: 1.25rem; /* Equivalent to py-5 */
+}
+
+.greeting {
+  color: #111517; /* Equivalent to text-[#111517] */
+  font-size: 1.75rem; /* Equivalent to text-[28px] */
+  font-weight: bold; /* Equivalent to font-bold */
+  line-height: 1.25; /* Equivalent to leading-tight */
+  padding-left: 1rem; /* Equivalent to px-4 */
+  padding-right: 1rem; /* Equivalent to px-4 */
+  padding-bottom: 0.75rem; /* Equivalent to pb-3 */
+  padding-top: 1.25rem; /* Equivalent to pt-5 */
+}
+
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Equivalent to grid-cols-3 */
+  gap: 1rem; /* Equivalent to gap-4 */
+}
+
+.graph-container {
+  display: grid;
+  grid-template-columns: 1fr; /* Equivalent to grid-cols-1 */
+  gap: 1rem; /* Equivalent to gap-4 */
+  margin-top: 1.25rem; /* Equivalent to mt-5 */
+}

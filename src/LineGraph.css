@@ -1,0 +1,38 @@
+.line-graph {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* Equivalent to gap-2 */
+  border-radius: 0.75rem; /* Equivalent to rounded-xl */
+  border: 1px solid #dce1e5; /* Equivalent to border-[#dce1e5] */
+  padding: 1.5rem; /* Equivalent to p-6 */
+  min-width: 18rem; /* Equivalent to min-w-72 */
+}
+
+.title {
+  color: #111517; /* Equivalent to text-[#111517] */
+  font-size: 1rem; /* Equivalent to text-base */
+  font-weight: 500; /* Equivalent to font-medium */
+  line-height: 1.5; /* Equivalent to leading-normal */
+}
+
+.graph-container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1; /* Equivalent to flex-1 */
+  gap: 2rem; /* Equivalent to gap-8 */
+  padding-top: 1rem; /* Equivalent to py-4 */
+  min-height: 180px; /* Equivalent to min-h-[180px] */
+}
+
+.dates {
+  display: flex;
+  justify-content: space-around; /* Equivalent to justify-around */
+}
+
+.date {
+  color: #647787; /* Equivalent to text-[#647787] */
+  font-size: 0.8125rem; /* Equivalent to text-[13px] */
+  font-weight: bold; /* Equivalent to font-bold */
+  line-height: normal; /* Equivalent to leading-normal */
+  letter-spacing: 0.015em; /* Equivalent to tracking-[0.015em] */
+}
